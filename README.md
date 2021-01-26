@@ -1,7 +1,7 @@
 # Review of MQTT Chat Solutions
 
 There are many softwre projects using MQTT for chat.  Here I review the ones which I could find.  Please edit this file. 
-
+ 
 ## Overview of Chat components
 
 A chat application should include a web client, a database, a message broker, an Android client, and an IoS client.  Desktop clients would also be helpful.  Fortunately all of the different pieces exist out there.   We just have to find them, and pull them together.   Here is my high level perspective. 
@@ -32,7 +32,7 @@ A person-to-person application.  Free for the first 1000 users. Just what ever
 
 ## Topic chat
 
-This page supports topic chat.   Every web page is on a different topic, and has its own MQTT chat room.  Use the breadcrumbs in the upper left hand corner of this page to visit the parents, and their topic chat rooms.  If a particular MQTT chat server is of interest to users, I will create a child web page and chat room for it.   MQTT is perfect for this.  One just needs a good database to support it.   I use the  simple topic logger [docker container](https://hub.docker.com/r/pythonlinks/simple-topic-logger).    
+[This page](https://greenmaps.us/mqtt) supports topic chat.   Every web page is on a different topic, and has its own MQTT chat room.  Use the breadcrumbs in the upper left hand corner of this page to visit the parents, and their topic chat rooms.  If a particular MQTT chat server is of interest to users, I will create a child web page and chat room for it.   MQTT is perfect for this.  One just needs a good database to support it.   I use the  simple topic logger [docker container](https://hub.docker.com/r/pythonlinks/simple-topic-logger).    
 
 So my question is whether anyone else is interested in topic chat?
 
